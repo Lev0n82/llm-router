@@ -1,4 +1,4 @@
-FROM python:3.11.9-slim
+FROM python:3.14.2-slim
 ENV PYTHONUNBUFFERED=0
 ENV PYTHONPATH=/app/content
 ENV GRADIO_ALLOW_FLAGGING=never
